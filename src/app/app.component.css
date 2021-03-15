@@ -5,3 +5,10 @@
 .main{
   padding-top: 50px;
 }
+.bot{
+  position: fixed;
+  bottom:0%;
+  width: 100%;
+  z-index: 30;
+  height: 12rem;
+}

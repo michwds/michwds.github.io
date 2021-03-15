@@ -6,13 +6,15 @@ import { HeaderComponent } from './header/header.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
 import {FormsModule} from '@angular/forms';
+import { CoverComponent } from './cover/cover.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     PortfolioComponent,
-    ContactComponent
+    ContactComponent,
+    CoverComponent
   ],
   imports: [
     BrowserModule,
