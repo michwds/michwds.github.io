@@ -1,0 +1,23 @@
+<section class="section">
+  <div class="container">
+    <form>
+      <div class="field">
+        <label class="label">Name</label>
+        <input type="text" name="individualName" class="input" [(ngModel)]="name">
+      </div>
+      <div class="field">
+        <label class="label">Company Name</label>
+        <input type="text" name="companyName" class="input" [(ngModel)]="compName">
+      </div>
+      <div class="field">
+        <label class="label">Email</label>
+        <input type="email" name="email" class="input" [(ngModel)]="email">
+      </div>
+      <div class="field">
+        <label class="label">Message</label>
+        <textarea name="message" class="textarea" [(ngModel)]="msg"></textarea>
+      </div>
+      <button type="submit" class="button">Submit</button>
+    </form>
+  </div>
+</section>
