@@ -7,10 +7,7 @@ import {FormsModule} from '@angular/forms';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  name;
-  compName;
-  email;
-  msg;
+
   constructor() { }
 
   ngOnInit(): void {
